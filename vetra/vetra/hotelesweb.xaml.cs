@@ -15,7 +15,7 @@ namespace vetra
         public hotelesweb()
         {
             InitializeComponent();
-            webView.Source = "https://neadevs.com/click/goya/hoteles/hoteles.html";
+            webView.Source = "https://institutofermosa.com/click/prueba.html";
         }
     }
 }

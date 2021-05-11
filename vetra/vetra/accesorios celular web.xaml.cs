@@ -15,7 +15,7 @@ namespace vetra
         public accesorios_celular_web()
         {
             InitializeComponent();
-            webView.Source = "https://neadevs.com/click/goya/celulares/accesorios.html";
+            webView.Source = "https://institutofermosa.com/click/prueba.html";
         }
     }
 }

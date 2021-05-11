@@ -15,7 +15,7 @@ namespace vetra
         public abogados2_web()
         {
             InitializeComponent();
-            webView.Source = "https://neadevs.com/click/bellavista/juridico2/abogados.html";
+            webView.Source = "https://institutofermosa.com/click/prueba.html";
         }
     }
 }

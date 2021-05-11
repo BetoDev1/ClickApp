@@ -15,7 +15,7 @@ namespace vetra
         public agencias2()
         {
             InitializeComponent();
-            webView.Source = "https://neadevs.com/click/bellavista/agenciasdequinielas2.html";
+            webView.Source = "https://institutofermosa.com/click/prueba.html";
         }
     }
 }

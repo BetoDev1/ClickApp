@@ -15,7 +15,7 @@ namespace vetra
         public accesorios_celular2_web()
         {
             InitializeComponent();
-            webView.Source = "https://neadevs.com/click/bellavista/celulares2/accesorios.html";
+            webView.Source = "https://institutofermosa.com/click/prueba.html";
         }
     }
 }
