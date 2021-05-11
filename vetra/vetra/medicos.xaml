@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vetra.salud"
+             Title="Click"
+             BackgroundImageSource="bellav.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+
+            <Image Source="iconosalud.png"
+               HorizontalOptions="Center"
+               Margin="0,20,0,10"
+              HeightRequest="100">
+            </Image>
+
+            <Button Text="farmacias" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked"/>
+
+            <Button Text="pediatria" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_1"/>
+
+            <Button Text="odontologia" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_2"/>
+
+            <Button Text="nutricion" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_3"/>
+
+            <Button Text="otros medicos" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_4"/>
+
+            <Button Text="psicologia" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_5"/>
+
+            <Button Text="analisis clinicos" FontSize="Medium" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_6"/>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

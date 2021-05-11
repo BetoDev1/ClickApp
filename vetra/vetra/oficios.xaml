@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vetra.oficios"
+             Title="Click"
+            BackgroundImageSource="bellav.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+            <Image Source="iconooficios.png"
+               HorizontalOptions="Center"
+               Margin="0,20,0,10"
+              HeightRequest="100">
+            </Image>
+
+            <Button Text="tec. refrigeracion" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked"/>
+
+            <Button Text="tec. computacion" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_1"/>
+
+            <Button Text="tec. celulares" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_2"/>
+
+            <Button Text="tec. lavarropas" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_3"/>
+
+            <Button Text="construccion" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_4"/>
+
+            <Button Text="electricistas" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_5"/>
+
+            <Button Text="plomeros" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_6"/>
+
+            <Button Text="carpinteros" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_7"/>
+
+            <Button Text="cerrajeros" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb"  
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_8"/>
+
+                <Button Text="herreros" FontSize="Default" Margin="40,20,40,10" BackgroundColor="#003eeb" 
+                TextColor="White" CornerRadius="10" Clicked="Button_Clicked_9"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

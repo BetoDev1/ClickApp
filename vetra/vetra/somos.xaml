@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vetra.somos"
+             Title="Click">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Somos una una empresa que pone a tu disposicion una gran cantidad de rubros de servicios de tu ciudad "
+                VerticalOptions="FillAndExpand" FontSize="Medium" TextColor="Green"
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="vetra.Segunda" 
+             Title=" Click en Goya"
+             BackgroundImageSource="fondo2.jpg">
+    
+    <ContentPage.Content>
+        
+            
+
+            
+            <ScrollView
+                
+            Margin="15,15,15,0">
+
+                <Grid x:Name="MainGrid">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.33*" />
+                        <ColumnDefinition Width="0.33*" />
+                        <ColumnDefinition Width="0.33*" />
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked"
+                       
+                    Source="HOTELES.png"
+                    Aspect="AspectFill"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Margin="5,5,5,5"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                    BackgroundColor="Transparent"
+                   ></ImageButton>
+
+
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_1"
+                        
+                    Source="GASTRONOMIA.png"
+                    Aspect="AspectFill"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,5,5,5"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_2"
+                      
+                    Source="PELUQUERIA.png"
+                    Aspect="AspectFill"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                    Margin="5,5,5,5"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                   Clicked="Button_Clicked_3"
+                        x:Name="btn3"
+                    Source="iconomuebles2.png"
+                    Aspect="AspectFill"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+              
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                   Clicked="Button_Clicked_4"
+                        x:Name="btn4"
+                    Source="LAVADEROS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+              
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                  Clicked="Button_Clicked_5"
+                    Source="JURIDICO.png"
+                    Aspect="AspectFill"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   x:Name="btn5"
+                        
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                   Clicked="Button_Clicked_6"
+                    Source="FARMACIAS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                   Clicked="Button_Clicked_7"
+                    Source="iconocomercios2.png"
+                    Aspect="AspectFill"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_8"
+                    Source="OFICIOS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                   Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_9"
+                    Source="CONCESIONARIA.png"
+                    Aspect="AspectFill"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                 
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                  Clicked="Button_Clicked_10"
+                    Source="POLIRRUBROS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                   Clicked="Button_Clicked_11"
+                    Source="FERRETERIAS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_12"
+                    Source="REMISES.png"
+                    Aspect="AspectFill"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                  Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+
+                    <ImageButton 
+                   Clicked="Button_Clicked_13"
+                    Source="QUINIELA.png"
+                    Aspect="AspectFill"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_14"
+                    Source="ICONOREPUESTOS2.png"
+                    Aspect="AspectFill"
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_15"
+                    Source="SEGUROS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_16"
+                    Source="CELULARES.png"
+                    Aspect="AspectFill"
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                    <ImageButton 
+                    Clicked="Button_Clicked_17"
+                    Source="ICONOTIENDAS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="5"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                <ImageButton 
+                    Clicked="Button_Clicked_18"
+                    Source="ICONOVETERINARIOS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="6"
+                    Grid.Column="0"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                <ImageButton 
+                    Clicked="Button_Clicked_19"
+                    Source="ICONOSERVICIOS.png"
+                    Aspect="AspectFill"
+                    Grid.Row="6"
+                    Grid.Column="1"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+                <ImageButton 
+                    Clicked="Button_Clicked_20"
+                    Source="ICONOCAZA.png"
+                    Aspect="AspectFill"
+                    Grid.Row="6"
+                    Grid.Column="2"
+                    WidthRequest="150"
+                    Margin="5,-40,5,0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                   
+                    CornerRadius="50"
+                        BackgroundColor="Transparent"
+                    ></ImageButton>
+
+            </Grid>
+
+
+
+            </ScrollView>
+            
+
+
+            <!--<StackLayout>
+            <Button Text="hoteles / cabañas " FontSize="Default" HeightRequest="40" BackgroundColor="Brown"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked" Margin="0,5,0,0"/>
+              
+            <Button Text="gastronomia" FontSize="Default" HeightRequest="40" BackgroundColor="Brown" 
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_1"/>
+              
+            <Button Text="peluquerias / esteticas" FontSize="Default" HeightRequest="40" BackgroundColor="Brown" 
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_2"/>
+              
+            <Button Text="muebles " FontSize="Default" HeightRequest="40" BackgroundColor="Brown" 
+                TextColor="White" Clicked="Button_Clicked_3"/>
+              
+            <Button Text="lavaderos / gimnacios" FontSize="Default" HeightRequest="40" BackgroundColor="Brown"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_4"/>
+              
+            <Button Text="juridico / contable" FontSize="Default" HeightRequest="40" BackgroundColor="Brown"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_5"/>
+              
+            <Button Text="medicos / farmacias" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_6" />
+              
+            <Button Text="comercios / tiendas " FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_7"/>
+              
+            <Button  Text="oficios / tecnicos " FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_8" />
+              
+            <Button  Text="consecionarias " FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_9"/>
+              
+            <Button Text="polirrubros " FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_10" />
+              
+            <Button Text="ferreterias / corralones" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_11"/>
+              
+            <Button Text="remises / encomiendas" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_12" />
+              
+            <Button Text="agencias de quinielas" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_13"/>
+              
+            <Button Text="repuestos" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_14"/>
+
+                <Button Text="seguros" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_15" />
+
+                <Button Text="celulares" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_16" />
+
+                <Button Text="electrodomesticos" FontSize="Default" HeightRequest="40" BackgroundColor="#0000ff"  
+                TextColor="White" CornerRadius="0" Clicked="Button_Clicked_17" />
+
+            </StackLayout>-->
+        
+        
+    </ContentPage.Content>
+  
+</ContentPage>
